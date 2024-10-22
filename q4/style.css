@@ -1,0 +1,10 @@
+@media screen and (width < 768px){
+    img{
+        width:100%;
+    }
+}
+@media screen and (width > 786){
+    img{
+        width:50%
+    }
+}

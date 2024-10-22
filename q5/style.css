@@ -1,0 +1,12 @@
+span {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+}
+
+@media screen and (width >= 600px) {
+    span {
+        display: inline-block;
+    }
+}

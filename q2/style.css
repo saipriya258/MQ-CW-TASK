@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+@media screen and (width < 500px) {
+    h1 {
+        font-size: 18px;
+        color: red;
+
+    }
+}
+
+@media screen and (width >= 500px) and (width < 800px) {
+    h1 {
+        font-size: 24px;
+        color: blue;
+
+    }
+}
+
+@media screen and (width > 800px) {
+    h1 {
+        font-size: 32px;
+        color: rgb(200, 255, 0);
+    }
+}
